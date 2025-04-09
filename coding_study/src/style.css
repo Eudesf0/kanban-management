@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+#logoTitulo{
+        font-size: xx-large;
+        font-weight: bold;
+        color: white;
+}
+button:hover{
+    background-color: white;
+    color:black ;
+}
+.taskBox{
+    border: 6px solid black;
+    background: black;
+    border-radius: 18px;
+    padding: 5px 18px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.navbar{
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.conteiner{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.conteiner .coluna{
+    width: 250px;
+    height: 315px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.conteiner .coluna .titulo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+}
